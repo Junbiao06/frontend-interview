@@ -8,10 +8,7 @@
 Thumbs.db
 Desktop.ini
 
-# Obsidian：每台设备独立的界面布局与临时状态
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache/
+.obsidian
 
 # Obsidian 回收站（不参与同步）
 .trash/
