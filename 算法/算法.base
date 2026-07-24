@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.inFolder("算法")
+    order:
+      - file.name
+      - 最近一次
+      - 备注
+    sort:
+      - property: 最近一次
+        direction: DESC
+  - type: table
+    name: 视图
